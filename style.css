@@ -1,0 +1,335 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+
+/*MENU*/
+a{
+    text-decoration: none;
+}
+.barra-superior{
+    
+    display: flex;
+    margin: 0%;
+    width: 100%;
+    padding: 0%;
+    position: fixed;
+    background-color: white;   
+}
+.logo{
+    
+    width: 20%;
+    height: 20%;        
+    margin: 10px;
+    padding: 5px; 
+}
+.menu-barra{
+    
+    display: inline-flex;
+    padding: 10px;
+    margin: 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;  
+    background-color: #003366;
+}
+
+.titulo{
+    color: white;
+    font-family: arial, bold; 
+    font-size: 15px;
+    text-transform: uppercase;    
+}
+
+/*HOME*/
+.home{
+    height: 100%;
+    justify-content:space-evenly;
+    align-content: space-between;
+    background:linear-gradient(45deg, rgba(204,0,102,1) 0%, rgba(153,153,204,1) 100%);
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+      
+}
+#home-subtitulo{
+    margin-left:  20%;
+    margin-right:  20%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    color: #fff;
+    padding: 30px;
+    border: tomato solid 0px;
+}
+
+hr{
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 1px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.p1{
+    color:#003366;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;   
+}
+
+/*NOSOTROS*/
+.nosotros-container{
+    height: 100%;
+    width: 100%;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    /*border: rgb(255, 175, 71) solid 2px;*/
+}
+
+
+
+/* 
+        /*nosostros-titulo-contenido*/
+.nosotros-titulo-container{
+    /*border: indigo solid 2px;*/
+    margin: 3px;
+    height: 100%;
+}
+.section-name{
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    color: #cc0066;
+    margin: 40px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+        /*nosostros-subtitulo-contenido*/
+.nosotros-subtitulo-container{
+    display: flex;
+    /*border: indigo solid 2px;*/
+    text-align: center;
+    font-size: 40px;
+    height: 100%;
+    justify-items: center;
+    margin-bottom: 5rem;
+} 
+.item1{
+    /*border: tomato solid 2px; */
+    float: left;
+    width:50%;
+    height: 100%;
+    text-align: justify; 
+}
+.somos{   
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    color: #6600cc;
+    margin-left: 6rem;
+    margin-right: 2rem;
+}
+.item2{
+    /*border: tomato solid 2px; */
+    float: right;
+    text-align: justify;
+    width: 50%;
+    height: 100%;
+    background-color: #6600cc;
+}
+#ojos{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: right;
+    color: white;
+    padding-left: 3rem;
+    justify-content: center;
+    margin-right: 6rem;
+    margin-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 100%;
+} 
+.nosotros-leyenda-container{
+    display: block;
+    /*border: indigo solid 2px;*/
+    text-align: center;
+    font-size: 40px;
+    height: 100%;
+    justify-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 25rem;
+    padding-right: 25rem;
+    margin: 3px;
+    width: 100%;
+    
+}
+.p2{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+/*SERVICIOS*/
+.galeria-servicios{
+    border: seagreen solid 4px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+  
+}
+.margen{
+    margin: 20px;
+    border: solid;
+    float: right;
+}
+.servicios{
+    font-family: Arial;
+    font-size: 30px;
+    color: #6600cc;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.listaservicios{
+    color: rgb(5, 5, 5);
+    font-size: 25px;
+    font-family: Arial;
+    padding: 25px;
+}
+#textoservicio{
+    color: #9966cc;
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial;
+}
+
+
+/*PORTFOLIO*/
+portfolio{
+    background-color: blue;
+    margin-left: 50px ;
+    margin-right: 50px;
+}
+.galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.fototexto{
+    width: 31%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    padding: 20px;
+    
+}
+.leyenda{
+    position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+/*transform: scale(0);*/
+background-color: rgb(158, 4, 4) (273,91%,27%,0.7);
+transition: transform .5s;
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+
+}
+
+
+/*CONTACTO*/
+.contact-body{
+    background: white;
+    color: #fff;
+    line-height: 1.6;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+}
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+.intro-contacto{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(5, 5, 5);
+}
+.intro-contacto span {
+    color: #6600cc;
+} /*NO CAMBIA*/
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+.contact-form {
+    background: #6600cc;
+}
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #330066;
+}
+
+.contact-form form button {
+    background: white;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #cc0066;
+    color: white;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+.contact-info {
+    background: #330066;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
